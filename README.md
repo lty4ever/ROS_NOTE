@@ -7,13 +7,12 @@ normaly we put a "#" before words for a title , "##" before a mainpoint and "*" 
 ## note two - ways to use terminal in linux
 * # press ctrl + alt + t to open terminal at Home of your user.
 * ## cd
-+ ~ to go back to user dir 
-press tab to fill in automatically according to what is already typed in
++ press tab to fill in automatically according to what is already typed in
 mind that there's two situation when tab is pressed
 	1. no conflicts occurs , fill in complished
 	2. conflicts occurs , nothing happens . If tab pressed a second time , all possible dirs appears with thier names,
-ls: show components in this dir
-type nothing after cd goes back to ~(Home)
++ ls: show components in this dir
++ type nothing after cd goes back to ~(Home)(the same use as typing ~)
 not only / means the root which can be used as a standard when getting into dirs , the ~ which means Home can also be used this way
 *## mkdir
 + dirname to make this dir here
@@ -25,4 +24,4 @@ used almost the same way as mkdir
 + filename to open filename using gedit
 * ## man
 + codename to show the usages of the code
-* #mind that the home case in the computer dir is the dir which contains the user dirs , not the Hone dir which the terminal opens with default settings when you have only one user.
+* # mind that the home case in the computer dir is the dir which contains the user dirs , not the Hone dir which the terminal opens with default settings when you have only one user.
