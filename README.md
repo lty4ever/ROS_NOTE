@@ -19,9 +19,24 @@ not only / means the root which can be used as a standard when getting into dirs
 + (-p) + dirname/dirname/dirname to make dirname/dirname/dirname here
 + dirname dirname dirname to make dirname dirname and dirname here
 * ## touch
-used almost the same way as mkdir
++ used almost the same way as mkdir
 * ## gedit
 + filename to open filename using gedit
 * ## man
 + codename to show the usages of the code
 * # mind that the home case in the computer dir is the dir which contains the user dirs , not the Hone dir which the terminal opens with default settings when you have only one user.
+## note three - begining ros
++ turtle bot
++ open a terminal
++ roscore
++ open another terminal
++ rosrun turtlesim turtlesim_node
++ open another terminal again
++ rosrun turtlesim turtle_teleop_key
++ the third terminal must get focus
+## note four - basic rules of ros
++ the system is separated into nodes topics and the ROS Master
++ firstly , master should be ran
++ secondly , nodes are ran and regist themselves to the Master e.g. what topic they will publish or subscribe
++ when Master find two nodes have a bond , it gives the control to the two nodes and the nodes will get each other known
++ the subscriber checkout the topic continuously
