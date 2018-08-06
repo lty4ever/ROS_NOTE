@@ -45,4 +45,5 @@ not only / means the root which can be used as a standard when getting into dirs
 + rosrun pakagename nodename -run node and regist to the master
 + rostopic echo topicname -subscribe topic within this terminal
 + rostopic info topicname -show lists of publishers and subscribers
++ rostopic list -listout all the topics available
 + rqt_graph -show a publisher_topic_subscriber graph in the whole program
