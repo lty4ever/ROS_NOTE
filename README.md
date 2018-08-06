@@ -40,3 +40,9 @@ not only / means the root which can be used as a standard when getting into dirs
 + secondly , nodes are ran and regist themselves to the Master e.g. what topic they will publish or subscribe
 + when Master find two nodes have a bond , it gives the control to the two nodes and the nodes will get each other known
 + the subscriber checkout the topic continuously
+## note five - basic codes for ros
++ roscore -run master
++ rosrun pakagename nodename -run node and regist to the master
++ rostopic echo topicname -subscribe topic within this terminal
++ rostopic info topicname -show lists of publishers and subscribers
++ rqt_graph -show a publisher_topic_subscriber graph in the whole program
