@@ -61,7 +61,7 @@ not only / means the root which can be used as a standard when getting into dirs
 + get into it and make a launch file named properly
 + gedit it
 + the format of the file should be like the one down here
-+ <launch>
-+ <node name="whatever" pkg="pakagename" type="nodename" />
-+ <node name="tyzl" pkg="turtlesim" type="turtlesim_node" />(example)
-+ </launch>
++ <=====launch=====>
++ <=====node name="whatever" pkg="pakagename" type="nodename" /=====>
++ <=====node name="tyzl" pkg="turtlesim" type="turtlesim_node" /=====>(example , the real format should get rid of the (=====)s)
++ <=====/launch=====>
