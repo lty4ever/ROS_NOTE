@@ -1,9 +1,3 @@
-references :
-+ [materials for md usage](http://markdown.cn)
-+ [ros wiki](http://wiki.ros.org)
-+ [usage of remap](http://wiki.ros.org/roslaunch/XML/remap)
-+ [sunMaxwell's github](https://github.com/sunmaxwll)
-
 # Day1
 ## note one - ways to use md
 normaly we put a "#" before words for a title , "##" before a mainpoint and "*" before a list component in a list , to put in plain words , we just create a new line and type words into it.
@@ -74,3 +68,9 @@ mind that there's two situation when tab is pressed
 ## note two - additional code used to merge two topics
 + <=====remap from="original topic" to="destination topic"=====>
 + rosrun topic_tools relay originalTopic destinationTopic
+* -------------------------------------
+references :
++ [materials for md usage](http://markdown.cn)
++ [ros wiki](http://wiki.ros.org)
++ [usage of remap](http://wiki.ros.org/roslaunch/XML/remap)
++ [sunMaxwell's github](https://github.com/sunmaxwll)
