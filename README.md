@@ -47,3 +47,21 @@ not only / means the root which can be used as a standard when getting into dirs
 + rostopic info topicname -show lists of publishers and subscribers
 + rostopic list -listout all the topics available
 + rqt_graph -show a publisher_topic_subscriber graph in the whole program
+# Day2
+## note one - ways to make a work space and a pakage
++ firstly , a empty dir with proper name should created (normally named as ..._ws)(should contain a sub dir named src)
++ secondly , get into the _ws dir
++ catkin_make to compile the work space
++ once we compiled a dir , sub dir build and devel created , src get new file CMakeLists.txt
++ catkin_create_pkg pakagename languagename(rospy or roscpp) to make a pakage
++ get into devel
++ source setup.bash to use socks to add bash file into environment arguements
++ roscd pakagename to get to a pakage dir quickly
++ create a dir named launch under pakagename dir
++ get into it and make a launch file named properly
++ gedit it
++ the format of the file should be like the one down here
++ <launch>
++ <node name="whatever" pkg="pakagename" type="nodename" />
++ <node name="tyzl" pkg="turtlesim" type="turtlesim_node" />(example)
++ </launch>
