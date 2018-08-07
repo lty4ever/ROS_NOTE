@@ -1,8 +1,7 @@
 references :
 + [materials for md usage](http://markdown.cn)
-* # [ros wiki](http://wiki.ros.org)
-+   [usage of remap](http://wiki.ros.org/roslaunch/XML/remap)
-*
++ [ros wiki](http://wiki.ros.org)
++ [usage of remap](http://wiki.ros.org/roslaunch/XML/remap)
 + [sunMaxwell's github](https://github.com/sunmaxwll)
 
 # Day1
