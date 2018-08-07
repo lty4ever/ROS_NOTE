@@ -67,7 +67,9 @@ mind that there's two situation when tab is pressed
 + <=====node name="tyzl" pkg="turtlesim" type="turtlesim_node" /=====>(example , the real format should get rid of the (=====)s)
 + <=====/launch=====>
 ## note two - additional code used to merge two topics
-+ <=====remap from="original topic" to="destination topic"=====>
++ <=====node name="tyzl" pkg="turtlesim" type="turtlesim_node" (used to have a "/" here , deleted)=====>
++ <=====remap from="original topic" to="destination topic" /=====>
++ <=====/node=====>
 + rosrun topic_tools relay originalTopic destinationTopic
 ----
 references :
