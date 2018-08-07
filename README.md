@@ -1,3 +1,4 @@
+<font color=#66ccff>by lty4ever</font>
 # Day1
 ## note one - ways to use md
 normaly we put a "#" before words for a title , "##" before a mainpoint and "*" before a list component in a list , to put in plain words , we just create a new line and type words into it.
