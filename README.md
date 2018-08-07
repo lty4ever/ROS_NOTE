@@ -9,6 +9,8 @@ references :
 normaly we put a "#" before words for a title , "##" before a mainpoint and "*" before a list component in a list , to put in plain words , we just create a new line and type words into it.
 + for a link we use the following format
 + [百度](https://baidu.com)
++ a pair of [] which contains the word want to show with a pair of () which contains the website want to link to
++ [-=-]=-=(-=-)
 ## note two - ways to use terminal in linux
 * press ctrl + alt + t to open terminal at Home of your user.
 * ## cd
