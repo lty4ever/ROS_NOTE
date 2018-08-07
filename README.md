@@ -69,7 +69,7 @@ mind that there's two situation when tab is pressed
 ## note two - additional code used to merge two topics
 + <=====remap from="original topic" to="destination topic"=====>
 + rosrun topic_tools relay originalTopic destinationTopic
-* -------------------------------------
+----
 references :
 + [materials for md usage](http://markdown.cn)
 + [ros wiki](http://wiki.ros.org)
