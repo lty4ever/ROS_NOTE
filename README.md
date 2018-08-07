@@ -67,10 +67,14 @@ mind that there's two situation when tab is pressed
 + <=====node name="tyzl" pkg="turtlesim" type="turtlesim_node" /=====>(example , the real format should get rid of the (=====)s)
 + <=====/launch=====>
 ## note two - additional code used to merge two topics
-+ <=====node name="tyzl" pkg="turtlesim" type="turtlesim_node" (used to have a "/" here , deleted)=====>
-+ <=====remap from="original topic" to="destination topic" /=====>
-+ <=====/node=====>
-+ rosrun topic_tools relay originalTopic destinationTopic
+  1. <=====node name="tyzl" pkg="turtlesim" type="turtlesim_node" (used to have a "/" here , deleted)=====>
+     <=====remap from="original topic" to="destination topic" /=====>
+     <=====/node=====>
+  2. rosrun topic_tools relay originalTopic destinationTopic
+## note three - including a launch file in another
++ <=====include file ="$(find pkgname)(/launch)/filename.launch"/=====> (/launch) means it is needed most of time
++ when a launch file includes itself , it will be forbidden even if it ran
++ forbidden also works when two launch file includes each other
 ----
 references :
 + [materials for md usage](http://markdown.cn)
