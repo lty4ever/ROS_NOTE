@@ -9,8 +9,7 @@ normaly we put a "#" before words for a title , "##" before a mainpoint and "*" 
 ## note two - ways to use terminal in linux
 * press ctrl + alt + t to open terminal at Home of your user.
 * ## cd
-* ## ls
-+ shows components in this dir
+* ## ls: show components in this dir
 + type nothing after cd goes back to ~(Home)(the same use as typing ~)
 not only / means the root which can be used as a standard when getting into dirs , the ~ which means Home can also be used this way
 * ## mkdir
@@ -87,15 +86,28 @@ mind that there's two situation when tab is pressed
 ## note three - route planning
 + global planning - starting point , destination , route
 + local planning - when crash into trouble , whether change the route/way or not
++ there mainly 2 algroithms used to plan a route - A* and Dijkstra's
++ A* is the most quickly one in the direct searching while D's is the most usual one
++ the main principle of the dynamic window algorithm -
+	1.given the state of the bot
+	2.according to the speed and other elements dicide the best route
+	3.repeat
 ## note four - mapping
 + roslaunch mx_bringup rbc_camera_start.launch(or mx_btingup rbc_lidar_start.launch)
 + roslaunch mx_nav gmapping_demo.launch
 + roslaunch mx_rviz gmapping_view.launch
-+ !!!!if robot is not moving , try more controlling nodes , if still not work , reboot the system , if the same thing happens over and over , check if the motor driver is broken(happens when motor is overloaded for a time period which is too long)
++ !!!!if robot is not moving : 
+	1.try more controlling nodes 
+	2.if still not work , reboot the system 
+	3.ensure the circuit is complete (the switch is off)
+	4.if the same thing happens over and over , check if the motor driver is broken(happens when motor is overloaded for a time period which is too long)
 + avoid bumping into walls coz the map will be broken
 + when robot only drifts a little , it doesn't matter , some strong code will repair the damage to the maps
+## note five - radars
++ normal lidar - spins and culculates using triangular similation
++ solid lidar - doesn't spin and culculates diatance using [data deleted]
 ----
-references :
+ref erences :
 + [materials for md usage](http://markdown.cn)
 + [ros wiki](http://wiki.ros.org)
 + [usage of remap](http://wiki.ros.org/roslaunch/XML/remap)
