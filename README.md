@@ -75,6 +75,24 @@ mind that there's two situation when tab is pressed
 + <=====include file ="$(find pkgname)(/launch)/filename.launch"/=====> (/launch) means it is needed most of time
 + when a launch file includes itself , it will be forbidden even if it ran
 + forbidden also works when two launch file includes each other
+# Day3
+## note one - avoid controling the robot on such a small screen
++ review XD
++ plug sensors into computer through a lengthen wire (at least usb3.0) so that every thing could be seen more clearly
++ when errors like "no cameras detected" appears , keep the wire linked while get the computer reboot
+## note two - SLAM
++ mapping while locating
++ a robot starts at some where unknown , the robot moves , detects the environment , enhance a map while locate itself in the map
+## note three - route planning
++ global planning - starting point , destination , route
++ local planning - when crash into trouble , whether change the route/way or not
+## note four - mapping
++ roslaunch mx_bringup rbc_camera_start.launch(or mx_btingup rbc_lidar_start.launch)
++ roslaunch mx_nav gmapping_demo.launch
++ roslaunch mx_rviz gmapping_view.launch
++ !!!!if robot is not moving , try more controlling nodes , if still not work , reboot the system , if the same thing happens over and over , check if the motor driver is broken(happens when motor is overloaded for a time period which is too long)
++ avoid bumping into walls coz the map will be broken
++ when robot only drifts a little , it doesn't matter , some strong code will repair the damage to the maps
 ----
 references :
 + [materials for md usage](http://markdown.cn)
