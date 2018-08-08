@@ -9,7 +9,8 @@ normaly we put a "#" before words for a title , "##" before a mainpoint and "*" 
 ## note two - ways to use terminal in linux
 * press ctrl + alt + t to open terminal at Home of your user.
 * ## cd
-* ## ls: show components in this dir
+* ## ls
++ shows components in this dir
 + type nothing after cd goes back to ~(Home)(the same use as typing ~)
 not only / means the root which can be used as a standard when getting into dirs , the ~ which means Home can also be used this way
 * ## mkdir
