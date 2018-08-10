@@ -106,6 +106,27 @@ mind that there's two situation when tab is pressed
 ## note five - radars
 + normal lidar - spins and culculates using triangular similation
 + solid lidar - doesn't spin and culculates diatance using [data deleted]
+# Day4
+## note one - basical python
++ cv2.waitKey(number) makes the program stay on this line of code till the wanted key is pressed
++ cv2.waitKey(0) means wait for anykey
++ cv2.imshow('label',a variable contains a img) pops up a form with a img titled label
+## note two - use python to code a ros node
++ the first line of program should be "#!/usr/bin/env python" or the program will not know use which program to run itself
++ rate = rospy.rate(Hz) using together with rate.sleep() will make the while loop run at (Hz)Hz
++ 'I coded the program and saved it , I also sourced the bash file , why can't I find it when I press Tab in Terminal?'
++ the program should be set to be a executable one so that it could be found
++ to set program into a executable one , mouse 2 on the file in the resource manager , mouse 1 on properties , selece Permissions and put a tick in the checkbox labeled execute
+## note three - neural network
++ CNN - Convolutional Neural Network - used for image recognizing
++ DNN - Deep Neural Network - used for voice recognition
++ RNN - Recurrent Neural Network - used for writing or voice recognition
++ trained using different frames - tensorflow / caffe /...
++ the process of using neural network to classify pics/tracks/marks is separated into three steps
+	1.pick a frame , train a network
+	2.pack the net work into a graph file and post it into the movidious which we will work with so that less tine will be cost
+	3.post the object into the movidious and wait for a result
++
 ----
 ref erences :
 + [materials for md usage](http://markdown.cn)
