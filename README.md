@@ -148,13 +148,13 @@ mind that there's two situation when tab is pressed
 + !!when two user both logged in , if any of them sent a message to the other , the bot will chat with each other , it's quite interesting but remember one's daily limit of analysing-responding is 1000messages!!
 ## note five - use robot to fetch tea
 + roslaunch mx_bringup rbc_lidar_start.launch - launch the base together with laser radar
-+ roslaunch mx_fetchtea mx_fetchtea.launch - launch the navigation with the function publishing points
++ roslaunch mx_fetchtea mx_fetchtea.launch - launch the navigation with the function publishing and naming navigation points
 + roslaunch voice_bringup voice_bringup.launch - launch the voice interacton
 + rosrun mx_test weChat2ROS.py - run the node which helps wechat communicate with ros bot
 + !!a constructed map is needed so that this kind of task can be done!!
 + ways to construct a map
 	1.see Day3 , note 4
-	2.on the desktop , there should be a folder called show , several .sh files would be found , choose as will
+	2.on the desktop , there should be a folder called show , several .sh files would be found , choose as will plz
 ----
 references :
 + [materials for md usage](http://markdown.cn)
