@@ -147,7 +147,7 @@ mind that there's two situation when tab is pressed
 + log-in
 + !!when two user both logged in , if any of them sent a message to the other , the bot will chat with each other , it's quite interesting but remember one's daily limit of analysing-responding is 1000messages!!
 ----
-ref erences :
+references :
 + [materials for md usage](http://markdown.cn)
 + [ros wiki](http://wiki.ros.org)
 + [usage of remap](http://wiki.ros.org/roslaunch/XML/remap)
