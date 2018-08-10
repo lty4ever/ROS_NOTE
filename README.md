@@ -126,7 +126,7 @@ mind that there's two situation when tab is pressed
 	1.pick a frame , train a network
 	2.pack the net work into a graph file and post it into the movidious which we will work with so that less tine will be cost
 	3.post the object into the movidious and wait for a result
-+
++ python two separately upgraded versions , movidious works with only python3 and at least usb 3.0
 ----
 ref erences :
 + [materials for md usage](http://markdown.cn)
