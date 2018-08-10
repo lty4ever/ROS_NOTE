@@ -128,6 +128,24 @@ mind that there's two situation when tab is pressed
 	3.post the object into the movidious and wait for a result
 + python two separately upgraded versions , movidious works with only python3 and at least usb 3.0
 + if no movidious/compute stick is inserted , the neural network could also be ran , see in the refrence section
+# Day5
+## note one - voice classifying and text_to_speech
++ VC , for example , contana
++ TTS , for example , screen reader
++ the wake up words are set at '~/ros_voice_system/src/baidu_speech/launch/baidu_tts.launch'
++ the apikey is set at '~/ros_voice_system/src/tuling_nlu/launch/tuling_nlu.launch'
+## note two - tuling123
++ sign up
++ create a bot
++ free-edition limits everyday analyzing into 1000
++ a private library can set the answer according to the question
+## note three - it chat bot (wechat auto-reply bot)
++ goto the website (see in the reference section)
++ copy the code
++ change the apikey into yours
++ python it
++ log-in
++ !!when two user both logged in , if any of them sent a message to the other , the bot will chat with each other , it's quite interesting but remember one's daily limit of analysing-responding is 1000messages!!
 ----
 ref erences :
 + [materials for md usage](http://markdown.cn)
@@ -135,3 +153,4 @@ ref erences :
 + [usage of remap](http://wiki.ros.org/roslaunch/XML/remap)
 + [sunMaxwell's github](https://github.com/sunmaxwll)
 + [neural net with no movidious](https://blog.csdn.net/pcyouid/article/details/79129006)
++ [itChatBot](http://itchat.readthedocs.io/zh/latest/tutorial/tutorial0/)
