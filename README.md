@@ -127,9 +127,11 @@ mind that there's two situation when tab is pressed
 	2.pack the net work into a graph file and post it into the movidious which we will work with so that less tine will be cost
 	3.post the object into the movidious and wait for a result
 + python two separately upgraded versions , movidious works with only python3 and at least usb 3.0
++ if no movidious/compute stick is inserted , the neural network could also be ran , see in the refrence section
 ----
 ref erences :
 + [materials for md usage](http://markdown.cn)
 + [ros wiki](http://wiki.ros.org)
 + [usage of remap](http://wiki.ros.org/roslaunch/XML/remap)
 + [sunMaxwell's github](https://github.com/sunmaxwll)
++ [neural net with no movidious](https://blog.csdn.net/pcyouid/article/details/79129006)
